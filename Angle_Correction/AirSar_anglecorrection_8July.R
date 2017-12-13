@@ -44,7 +44,7 @@ teta=matrix(0,nriga,ncolonne)
 
 for(j in 1:ncolonne){
   #teta[,j]=acos(H/(R+(j*P)))
-  teta[,j]=(H/(R+(j*P))) #così ottengo il coseno di teta
+  teta[,j]=(H/(R+(j*P))) #cosÃ¬ ottengo il coseno di teta
 } 
 
 r_teta=raster(f_CL_8july02,1)
